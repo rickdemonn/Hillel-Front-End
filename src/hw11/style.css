@@ -1,0 +1,40 @@
+#users {
+    width: 50%;
+    border: 2px solid green;
+}
+
+#users-title #companies-title #cars-title{
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+#companies {
+    width: 50%;
+    border: 2px solid red;
+}
+
+#cars {
+    width: 50%;
+    border: 2px solid darkblue;
+}
+
+.element {
+    border: 2px solid green;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#form {
+    width: 50%;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error {
+    border: 1px solid red;
+}

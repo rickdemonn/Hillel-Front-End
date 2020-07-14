@@ -1,0 +1,59 @@
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#categories {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+
+#products {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+
+#info {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid rebeccapurple;
+}
+
+#buy-btn {
+    background-color: greenyellow;
+    min-width: 200px;
+    min-height: 30px;
+}
+
+#form {
+    width: 40%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+#form-button {
+    width: 70px;
+    height: 30px;
+    background-color: #13e435;
+}
+
+.error {
+    border: 2px solid red;
+}

@@ -1,0 +1,30 @@
+{
+    "priorities": [
+        {
+            "id": 1,
+            "priority": "Low"
+        },
+        {
+            "id": 2,
+            "priority": "Medium"
+        },
+        {
+            "id": 3,
+            "priority": "High"
+        }
+    ],
+    "statuses": [
+        {
+            "id": 1,
+            "status": "Open"
+        },
+        {
+            "id": 2,
+            "status": "Doing"
+        },
+        {
+            "id": 3,
+            "status": "Done"
+        }
+    ]
+}

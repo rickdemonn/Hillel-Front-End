@@ -1,0 +1,38 @@
+#tasks {
+    display: flex;
+    margin-top: 50px;
+}
+
+.task {
+    border: 2px solid seagreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.input {
+    width: 50%;
+}
+
+#edit-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid seagreen;
+    width: 30%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#new-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid seagreen;
+    width: 30%;
+    height: 300px;
+    margin: 0 auto;
+}
