@@ -3,7 +3,14 @@ const uglify = require('gulp-uglify');
 const babel = require('gulp-babel');
 const concat = require('gulp-concat');
 const sass = require('gulp-sass');
-const livereload = require('gulp-livereload');
+const imagemin = require('gulp-imagemin');
+
+
+gulp.task('images',  () => {
+	return gulp.src('img/*.*')
+			.pipe(imagemin({optimizationLevel: 5}))
+			.pipe(gulp.dest('build/img'));
+});
 
 gulp.task('js', () => {
 	return gulp.src('js/*.js')
@@ -14,7 +21,7 @@ gulp.task('js', () => {
 });
 
 const defaultTask = () => {
-	return gulp.parallel('js', 'styles');
+	return gulp.parallel('js', 'styles', 'images');
 }
 
 gulp.task('styles', () => {
@@ -27,6 +34,6 @@ gulp.task('styles', () => {
 gulp.task('default', defaultTask());
 
 gulp.task('watch', () => {
-	return gulp.watch(['js/*.js', 'scss/*.scss'], {}, defaultTask())
+	return gulp.watch(['js/*.js', 'scss/*.scss', 'img/*.*'], {}, defaultTask())
 })
 
