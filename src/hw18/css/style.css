@@ -1,0 +1,30 @@
+#wrapper{
+    width: 90%;
+    min-height: 400px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    margin-bottom: 30px;
+    overflow: scroll;
+}
+
+.user-block {
+    background-color: cadetblue;
+    align-self: flex-end;
+    min-width: 20%;
+    max-width: 40%;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 10px;
+}
+
+.bot-block {
+    background-color: dimgray;
+    color: white;
+    margin: 3px;
+    margin-left: 0;
+    max-width: 40%;
+    border-radius: 5px;
+    padding: 10px;
+}
