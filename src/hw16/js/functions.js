@@ -197,3 +197,5 @@ const saveTask = event => {
 	localStorage.setItem('tasks', JSON.stringify(tasks));
 	showTasksBoard();
 }
+
+start(tasks);
